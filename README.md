@@ -2,7 +2,9 @@
 
 
 <B> About data</B> <br>
-This project involves  data cleaning and munging of the dataset from <B> United States Department of Agriculture </B> -National Agriculture Statistics Service.<br> 
+The data is 
+
+Source: This project involves  data cleaning and munging of the dataset from <B> United States Department of Agriculture </B> -National Agriculture Statistics Service.<br> 
 
 Data is available for download [here](https://quickstats.nass.usda.gov) <br>
 Glossary is available to view [here](https://quickstats.nass.usda.gov/src/glossary.pdf) <br>
@@ -43,6 +45,7 @@ b. The columns can be dropped if :<br>
 - the columns have one category <br>
 - if 70% of the data in the column is Null, Not Available,or Not Applicable, Not Recorded <br>
 - the entire column is NaN <br>
+- it is essential to include only the columns that will be useful for specific analysis or visualization <br>
 c. After the <b>selection</b> of columns that are to be included in the dataset, the remaining columns can be dropped.<br>
 d. Once I have the final set of columns to be included, we can <b>restructure</b> the dataset based on the hierarchy if any,
 eg: Geographic level (State, county, ASD etc).<br>
