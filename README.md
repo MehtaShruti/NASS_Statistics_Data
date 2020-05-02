@@ -2,24 +2,24 @@
 
 
 <B> About data:</B> <br>
-This project involves  data cleaning and munging of the dataset from <B> United States Department of Agriculture </B> National Agriculture Statistics Service.<br> 
+This project involves  data cleaning and munging of the dataset from <B> United States Department of Agriculture </B> -National Agriculture Statistics Service.<br> 
 
 Data is available for download [here](https://quickstats.nass.usda.gov) <br>
-Glossary is available to view [here] (https://quickstats.nass.usda.gov/src/glossary.pdf) <br>
+Glossary is available to view [here](https://quickstats.nass.usda.gov/src/glossary.pdf) <br>
 
-# <b>Methodology:</b> <br>
+### <b><u>Methodology and Approach:</b></u> <br>
 
 The data cleaning process begins with: <br>
 1. Understanding how big the dataset is (the downloaded file is 6.5 GB), so we would have to process it by in chunks and then  cleaning it further.<br>
-2. As a project requirement given:<br>
-a. the data is included from 1990 till current year.<br>
-b. the essential crops to be included are  Corn, Wheat, Rice, Soy and Cotton.<br>
+2. Project requirement includes the following:<br>
+a. the data is to be included from 1990 till current year <br>
+b. the essential crops to be included are  Corn, Wheat, Rice, Soy and Cotton<br>
 c. include county level data <br>
 
 <b>About the project structure: </b> <br>
  There are 2 files in the project:<br>
  1. Jupyter Notebook: NASS QuickStats data .ipynb - for step by step representation of the cleaning process with the output <br>
- 2. Python file: Nass_data.py <br> - replication of jupyter notebook for compact code with compact code.<br>
+ 2. Python file: Nass_data.py <br> - replication of jupyter notebook for compact code with compact and cleaner code<br>
 
 
 <b>Steps involved:</b><br>
@@ -51,10 +51,3 @@ e. Once I have the dataset ready I then <b>sort</b> the data based on year just 
 f. Lastly, I have exported the cleaned dataset to the desired location in a .csv file. (~480 MB) <br>
   
 <b><i>Note: In all the above steps, I have used df.shape() to ensure changes in the data structure are consistent.</b></i><br>
-
-
-
-
-
-
-
