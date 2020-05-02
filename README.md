@@ -15,7 +15,7 @@ Glossary is available to view [here](https://quickstats.nass.usda.gov/src/glossa
  2.<b>Nass_data.py:</b> python file (replication of jupyter notebook) with compact and cleaner code<br>
  
 <b>Methodology and Approach</b><br>
-The data cleaning process begins with <br>
+The data cleaning process begins with:<br>
 1. Understanding how big the dataset is (the downloaded file is 6.5 GB), so we would have to process it by in chunks and then  cleaning it further.<br>
 2. Project requirement includes the following:<br>
 a. the data is to be included from 1990 till current year <br>
