@@ -41,7 +41,7 @@ b.Important point to note here is that filtering involves in the reduction of ro
  
 4. <b> Data Restructuring and Data Munging</b><br>
 a. This is the last step of the data cleaning process which involves the selection of columns for the cleaned dataset.<br>
-b. The columns can be dropped if :<br>
+b. The columns can be dropped if :
 - the columns have one category <br>
 - if 70% of the data in the column is Null, Not Available,or Not Applicable, Not Recorded <br>
 - the entire column is NaN <br>
