@@ -2,7 +2,7 @@
 
 
 <B> About data</B> <br>
-The data is collected by National Agriculture Statistics Service to understand agircultural statistics. The modes of collecting the data are <b>Census</b> or <b>Surveys.</b> <br>
+The data is collected by National Agriculture Statistics Service to understand agricultural statistics. The modes of collecting the data are <b>Census</b> or <b>Surveys.</b> <br>
 
 <b>Source:</b> This project involves  data cleaning and munging of the dataset from <B> United States Department of Agriculture </B> -National Agriculture Statistics Service.<br> 
 
