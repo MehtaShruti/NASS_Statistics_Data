@@ -47,10 +47,11 @@ b. The columns can be dropped if :
 - the entire column is NaN <br>
 - it is essential to include only the columns that will be useful for specific analysis or visualization <br>
 c. After the <b>selection</b> of columns that are to be included in the dataset, the remaining columns can be dropped.<br>
-d. Once I have the final set of columns to be included, we can <b>restructure</b> the dataset based on the hierarchy if any,
+d. <b>Rename<b> the columns to improve the understandability 
+e. Once I have the final set of columns to be included, we can <b>restructure</b> the dataset based on the hierarchy if any,
 eg: Geographic level (State, county, ASD etc).<br>
-e. Once I have the dataset ready I then <b>sort</b> the data based on year just before the final export.<br>
-f. Lastly, I have exported the cleaned dataset to the desired location in a .csv file. (~480 MB) <br>
+f. Once I have the dataset ready I then <b>sort</b> the data based on year just before the final export.<br>
+g. Lastly, I have exported the cleaned dataset to the desired location in a .csv file. (~480 MB) <br>
   
 <b><i>Note: In all the above steps, I have used df.shape() to ensure changes in the data structure are consistent.</b></i><br>
 
