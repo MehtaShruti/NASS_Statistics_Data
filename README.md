@@ -26,7 +26,7 @@ c. include county level data <br>
 <b>Steps involved</b><br>
 
 1. <b>Data Chunking</b> : <br> 
-a. This process involves processing the data in smaller chunks of a large file. One chunk with a specific size is processed and then appened to the masterdata set. <br>
+a. This process involves processing the data in smaller chunks of a large file. One chunk with a specific size is processed and then appended to the masterdata set. <br>
 b. In this step of my code, I have divided the data into multiple chunks with each of size 1000 and iterating over it till it reaches the end chunk and the process is complete. <br>
 c. Additionally, I am filtering the dataset for only years <b>1990-present</b> so that operation is faster and the master dataset becomes smaller.<br>
 d. The output of this process is a masterdata set with the data filtered out of years before 1990.<br>
