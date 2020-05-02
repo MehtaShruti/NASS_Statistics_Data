@@ -18,8 +18,8 @@ c. include county level data <br>
 
 <b>About the project structure: </b> <br>
  There are 2 files in the project:<br>
- 1. Jupyter Notebook: NASS QuickStats data .ipynb - for step by step representation of the cleaning process with the output <br>
- 2. Python file: Nass_data.py <br> - replication of jupyter notebook for compact code with compact and cleaner code<br>
+ 1. NASS QuickStats data .ipynb: Jupyter Notebook for step by step representation of the cleaning process with the output <br>
+ 2. Nass_data.py: python file (replication of jupyter notebook) with compact and cleaner code<br>
 
 
 <b>Steps involved:</b><br>
