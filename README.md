@@ -2,13 +2,18 @@
 
 
 <B> About data</B> <br>
-The data is 
+The data is collected by National Agriculture Statistics Service to understand agircultural statistics. The modes of collecting this data are <b>Census</b> or <b><Survey></b>
 
-Source: This project involves  data cleaning and munging of the dataset from <B> United States Department of Agriculture </B> -National Agriculture Statistics Service.<br> 
+<b>Source:</b> This project involves  data cleaning and munging of the dataset from <B> United States Department of Agriculture </B> -National Agriculture Statistics Service.<br> 
 
 Data is available for download [here](https://quickstats.nass.usda.gov) <br>
 Glossary is available to view [here](https://quickstats.nass.usda.gov/src/glossary.pdf) <br>
 
+<b>Project structure </b> <br>
+ There are 2 files in the project:<br>
+ 1.<b> NASS QuickStats data .ipynb</b>: Jupyter Notebook for step by step representation of the cleaning process with the output <br>
+ 2.<b>Nass_data.py:</b> python file (replication of jupyter notebook) with compact and cleaner code<br>
+ 
 <b>Methodology and Approach</b><br>
 The data cleaning process begins with <br>
 1. Understanding how big the dataset is (the downloaded file is 6.5 GB), so we would have to process it by in chunks and then  cleaning it further.<br>
@@ -16,11 +21,6 @@ The data cleaning process begins with <br>
 a. the data is to be included from 1990 till current year <br>
 b. the essential crops to be included are  Corn, Wheat, Rice, Soy and Cotton<br>
 c. include county level data <br>
-
-<b>About the project structure </b> <br>
- There are 2 files in the project:<br>
- 1. NASS QuickStats data .ipynb: Jupyter Notebook for step by step representation of the cleaning process with the output <br>
- 2. Nass_data.py: python file (replication of jupyter notebook) with compact and cleaner code<br>
 
 
 <b>Steps involved</b><br>
@@ -37,7 +37,7 @@ b. Functions involved in the profiling are: unique(), describe(), info() to unde
 
 3. <b> Data Filtering: </b><br>
 a. Filtering out the data based on identification the categories of a column that we would like to filter; crops, geographic level etc.<br>
-b. <i> Important point to note here is that filtering involves in the reduction of row count but the columns count remains intact.</i><br>
+b.Important point to note here is that filtering involves in the reduction of row count but the columns count remains intact.<br>
  
 4. <b> Data Restructuring and Data Munging</b><br>
 a. This is the last step of the data cleaning process which involves the selection of columns for the cleaned dataset.<br>
@@ -53,3 +53,5 @@ e. Once I have the dataset ready I then <b>sort</b> the data based on year just 
 f. Lastly, I have exported the cleaned dataset to the desired location in a .csv file. (~480 MB) <br>
   
 <b><i>Note: In all the above steps, I have used df.shape() to ensure changes in the data structure are consistent.</b></i><br>
+
+Data visualization on above dataset is available to view [here](https://public.tableau.com/profile/shruti.mehta#!/vizhome/NASSQuickStatsdashboard/NASSQuickStatsdashboard)
