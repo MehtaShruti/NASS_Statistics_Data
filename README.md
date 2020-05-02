@@ -7,7 +7,7 @@ This project involves  data cleaning and munging of the dataset from <B> United 
 Data is available for download [here](https://quickstats.nass.usda.gov) <br>
 Glossary is available to view [here](https://quickstats.nass.usda.gov/src/glossary.pdf) <br>
 
-### <b><u>Methodology and Approach:</b></u> <br>
+<b>Methodology and Approach:</b><br>
 
 The data cleaning process begins with: <br>
 1. Understanding how big the dataset is (the downloaded file is 6.5 GB), so we would have to process it by in chunks and then  cleaning it further.<br>
