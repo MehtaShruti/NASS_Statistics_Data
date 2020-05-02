@@ -1,28 +1,27 @@
 # Data Cleaning : USDA- NASS
 
 
-<B> About data:</B> <br>
+<B> About data</B> <br>
 This project involves  data cleaning and munging of the dataset from <B> United States Department of Agriculture </B> -National Agriculture Statistics Service.<br> 
 
 Data is available for download [here](https://quickstats.nass.usda.gov) <br>
 Glossary is available to view [here](https://quickstats.nass.usda.gov/src/glossary.pdf) <br>
 
-<b>Methodology and Approach:</b><br>
-
-The data cleaning process begins with: <br>
+<b>Methodology and Approach</b><br>
+The data cleaning process begins with <br>
 1. Understanding how big the dataset is (the downloaded file is 6.5 GB), so we would have to process it by in chunks and then  cleaning it further.<br>
 2. Project requirement includes the following:<br>
 a. the data is to be included from 1990 till current year <br>
 b. the essential crops to be included are  Corn, Wheat, Rice, Soy and Cotton<br>
 c. include county level data <br>
 
-<b>About the project structure: </b> <br>
+<b>About the project structure </b> <br>
  There are 2 files in the project:<br>
  1. NASS QuickStats data .ipynb: Jupyter Notebook for step by step representation of the cleaning process with the output <br>
  2. Nass_data.py: python file (replication of jupyter notebook) with compact and cleaner code<br>
 
 
-<b>Steps involved:</b><br>
+<b>Steps involved</b><br>
 
 1. <b>Data Chunking</b> : <br> 
 a. This process involves processing the data in smaller chunks of a large file. One chunk with a specific size is processed and then appened to the masterdata set. <br>
